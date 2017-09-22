@@ -44,7 +44,7 @@ After completing this assignment you should be able to
 
 ### Desktop
 *( > 1024px )*
-![link to full-screen mockup](mockups/natgeo-tablet.png)
+![link to full-screen mockup](mockups/natgeo-desktop.png)
 
 ---
 
@@ -61,7 +61,7 @@ After completing this assignment you should be able to
 4. Download image assets
   ```sh
   curl
-  https://raw.githubusercontent.com/muktek/lab--responsive-design-natgeo/image-files.zip > image-files.zip
+  https://raw.githubusercontent.com/muktek/lab--responsive-design-natgeo/master/image-files.zip > image-files.zip
 
   unzip image-files.zip
   ```
