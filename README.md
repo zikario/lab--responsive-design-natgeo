@@ -60,8 +60,7 @@ After completing this assignment you should be able to
 3. Use the `watch-scss` command in the project's root directory to compile the scss to 'watch' for changes in your `.scss` files and update your `style.css` file.
 4. Download image assets
   ```sh
-  curl
-  https://raw.githubusercontent.com/muktek/lab--responsive-design-natgeo/master/image-files.zip > image-files.zip
+  curl  https://raw.githubusercontent.com/muktek/lab--responsive-design-natgeo/master/image-files.zip > image-files.zip
 
   unzip image-files.zip
   ```
