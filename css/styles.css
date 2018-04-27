@@ -1,0 +1,403 @@
+/*! normalize.css v7.0.0 | MIT License | github.com/necolas/normalize.css */
+html {
+  line-height: 1.15;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0; }
+
+article, aside, footer, header, nav, section {
+  display: block; }
+
+h1 {
+  font-size: 2em;
+  margin: .67em 0; }
+
+figcaption, figure, main {
+  display: block; }
+
+figure {
+  margin: 1em 40px; }
+
+hr {
+  box-sizing: content-box;
+  height: 0;
+  overflow: visible; }
+
+pre {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+a {
+  background-color: transparent;
+  -webkit-text-decoration-skip: objects; }
+
+abbr[title] {
+  border-bottom: none;
+  text-decoration: underline;
+  text-decoration: underline dotted; }
+
+b, strong {
+  font-weight: inherit; }
+
+b, strong {
+  font-weight: bolder; }
+
+code, kbd, samp {
+  font-family: monospace,monospace;
+  font-size: 1em; }
+
+dfn {
+  font-style: italic; }
+
+mark {
+  background-color: #ff0;
+  color: #000; }
+
+small {
+  font-size: 80%; }
+
+sub, sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline; }
+
+sub {
+  bottom: -.25em; }
+
+sup {
+  top: -.5em; }
+
+audio, video {
+  display: inline-block; }
+
+audio:not([controls]) {
+  display: none;
+  height: 0; }
+
+img {
+  border-style: none; }
+
+svg:not(:root) {
+  overflow: hidden; }
+
+button, input, optgroup, select, textarea {
+  font-family: sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0; }
+
+button, input {
+  overflow: visible; }
+
+button, select {
+  text-transform: none; }
+
+[type=reset], [type=submit], button, html [type=button] {
+  -webkit-appearance: button; }
+
+[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
+  border-style: none;
+  padding: 0; }
+
+[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
+  outline: 1px dotted ButtonText; }
+
+fieldset {
+  padding: .35em .75em .625em; }
+
+legend {
+  box-sizing: border-box;
+  color: inherit;
+  display: table;
+  max-width: 100%;
+  padding: 0;
+  white-space: normal; }
+
+progress {
+  display: inline-block;
+  vertical-align: baseline; }
+
+textarea {
+  overflow: auto; }
+
+[type=checkbox], [type=radio] {
+  box-sizing: border-box;
+  padding: 0; }
+
+[type=number]::-webkit-inner-spin-button, [type=number]::-webkit-outer-spin-button {
+  height: auto; }
+
+[type=search] {
+  -webkit-appearance: textfield;
+  outline-offset: -2px; }
+
+[type=search]::-webkit-search-cancel-button, [type=search]::-webkit-search-decoration {
+  -webkit-appearance: none; }
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  font: inherit; }
+
+details, menu {
+  display: block; }
+
+summary {
+  display: list-item; }
+
+canvas {
+  display: inline-block; }
+
+template {
+  display: none; }
+
+[hidden] {
+  display: none; }
+
+/*# sourceMappingURL=normalize.min.css.map */
+* {
+  box-sizing: border-box; }
+
+img {
+  width: 100%;
+  display: block; }
+
+#app-container {
+  margin: 0 auto;
+  width: 97%; }
+
+#headim {
+  margin-left: 25px;
+  width: 170px; }
+
+#headt {
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  display: flex; }
+
+#desktopbg {
+  font-size: 0; }
+
+#ic {
+  font-size: 45px;
+  position: absolute;
+  right: 40px; }
+
+hr {
+  width: 100%; }
+
+#photography {
+  margin-top: 70px;
+  font-size: 45px; }
+
+#travel {
+  margin-top: 70px; }
+
+.b {
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+  color: #000;
+  font-weight: bold;
+  width: 100px;
+  border-bottom: solid 2px #fecd2f; }
+
+.b:hover {
+  cursor: pointer; }
+
+#textetc {
+  width: 97%;
+  margin: 0 auto; }
+
+.leftb {
+  border-left: solid 2px #aaa;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: justify; }
+
+#showm {
+  padding: 17px;
+  background: #fecd2f;
+  border: solid 4px #000;
+  color: #000;
+  width: 100%;
+  text-align: center; }
+
+#showm:hover {
+  cursor: pointer; }
+
+#photosy {
+  margin-top: 70px; }
+
+#grayly {
+  margin: 0;
+  background: #333;
+  color: #fff; }
+
+#follown {
+  padding-top: 80px;
+  text-align: center; }
+
+#icons {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px; }
+
+#face {
+  padding: 10px;
+  color: #3B3B98; }
+
+#twitter {
+  padding: 10px;
+  color: #45aaf2; }
+
+#insta {
+  padding: 10px;
+  color: #706fd3; }
+
+.COMMUNITY {
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+  text-align: center;
+  padding-top: 100px; }
+
+#b {
+  width: 100px; }
+
+#c {
+  width: 80px; }
+
+#d {
+  width: 50px; }
+
+.c:hover {
+  cursor: pointer; }
+
+.dcent {
+  text-align: center; }
+
+#b, #c, #d:hover {
+  cursor: pointer; }
+
+#b, #c, #d {
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+  text-align: center;
+  margin: auto;
+  border-bottom: 2px solid #fecd2f;
+  font-weight: bold; }
+
+#lgrayx {
+  margin: 0;
+  background: #d3d3d3;
+  color: #000; }
+
+#input {
+  display: flex; }
+
+#SIGN {
+  background: #fecd2f;
+  padding: 10px;
+  height: 35px;
+  margin-top: 9px;
+  margin-left: 5px; }
+
+#SIGN:hover {
+  cursor: pointer; }
+
+#txtin {
+  height: 50px;
+  margin-top: 5px; }
+
+#suscribe {
+  padding-top: 50px; }
+
+#followu {
+  padding-bottom: 40PX; }
+
+.x {
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif; }
+
+@media screen and (min-width: 768px) {
+  #travisfriend {
+    margin: auto;
+    width: 94%; }
+
+  #showm {
+    margin: auto;
+    margin-top: 25px;
+    width: 85%; }
+
+  .imtx {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row; }
+
+  .imgtxt {
+    width: 60%; }
+
+  .txtimg {
+    margin-left: 5px;
+    width: 36%; }
+
+  .leftb {
+    border-left: 0; }
+
+  #cmundivs {
+    display: flex;
+    flex-wrap: wrap; }
+
+  .cmun {
+    padding-bottom: 50px;
+    width: 50%; }
+
+  .COMMUNITY {
+    padding-top: 70px; }
+
+  #lgrayx {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    background-size: cover; }
+
+  #followu {
+    border-left: solid 2px #aaa;
+    position: absolute;
+    right: 30px;
+    width: 30%;
+    padding-top: 5px; }
+
+  #suscribe {
+    padding: 0; }
+
+  .imputnews {
+    margin-left: 100px;
+    width: 50%;
+    padding-bottom: 40px; } }
+@media screen and (min-width: 1024px) {
+  #textetc {
+    width: 60%; }
+
+  .cmun {
+    width: 25%; }
+
+  #ic {
+    font-size: 0; }
+
+  #headt {
+    position: relative;
+    background-size: cover; }
+
+  #desktopbg {
+    display: flex;
+    position: absolute;
+    right: 30px;
+    font-size: 18px;
+    color: #d3d3d3; }
+
+  .dkbg {
+    padding-left: 50px;
+    border-left: solid 2px #fecd2f;
+    padding-right: 50px; } }
+
+/*# sourceMappingURL=styles.css.map */

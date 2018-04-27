@@ -1,0 +1,253 @@
+@import "./imports/_normalize.scss";
+
+*{ box-sizing: border-box }
+
+$desktop: 1024px;
+$tablet: 768px;
+$yellow: #fecd2f;
+$lgray: #aaa;
+$dgray: #333;
+
+img {
+   width: 100%;
+   display: block;
+}
+
+#app-container{
+  margin: 0 auto;
+  width: 97%;
+}
+#headim{
+  margin-left: 25px;
+  width: 170px;
+}
+#headt{
+  background-size: cover;
+  position: relative;
+  width: 100%;
+  display: flex;
+}
+#desktopbg{
+  font-size: 0;
+}
+#ic{
+font-size: 45px;
+position: absolute;
+right: 40px;
+}
+hr{
+  width: 100%;
+}
+#photography{
+  margin-top: 70px;
+  font-size: 45px;
+}
+#travel{
+  margin-top: 70px;
+}
+.b{
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+  color: #000;
+  font-weight: bold;
+  width: 100px;
+  border-bottom: solid 2px $yellow;
+}
+.b:hover{
+  cursor: pointer;
+}
+#textetc{
+  width: 97%;
+  margin: 0 auto;
+}
+.leftb{
+  border-left: solid 2px $lgray;
+  padding-left: 5px;
+  font-weight: bold;
+  font-size: 18px;
+  text-align: justify;
+}
+#showm{
+  padding: 17px;
+  background: $yellow;
+  border: solid 4px #000;
+  color: #000;
+  width: 100%;
+  text-align: center;
+}
+#showm:hover{
+cursor: pointer;
+}
+#photosy{
+  margin-top: 70px;
+}
+#grayly{
+  margin: 0;
+  background: $dgray;
+  color: #fff;
+}
+#follown{
+  padding-top: 80px;
+text-align: center;
+}
+#icons{
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+}
+#face{padding: 10px;
+  color: #3B3B98;
+}
+#twitter{
+  padding: 10px;
+  color: #45aaf2;
+}
+#insta{
+  padding: 10px;
+  color: #706fd3;
+}
+.COMMUNITY{
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+ text-align: center;
+ padding-top: 100px;
+}
+#b{
+  width: 100px;
+}
+#c{
+  width: 80px
+}
+#d{
+  width: 50px
+}
+.c:hover{
+  cursor: pointer;
+}
+.dcent{
+  text-align: center;
+}
+#b, #c, #d:hover{
+  cursor: pointer;
+}
+#b, #c, #d{
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+  text-align: center;
+  margin: auto;
+  border-bottom: 2px solid $yellow;
+  font-weight: bold;
+}
+#lgrayx{
+  margin: 0;
+  background: #d3d3d3;
+  color: #000;
+}
+#input{
+display: flex;
+}
+#SIGN{
+  background: $yellow;
+  padding: 10px;
+  height: 35px;
+  margin-top: 9px;
+  margin-left: 5px;
+}
+#SIGN:hover{
+  cursor: pointer;
+}
+#txtin{
+  height: 50px;
+  margin-top: 5px;
+}
+#suscribe{
+  padding-top: 50px;
+}
+#followu{
+padding-bottom: 40PX;
+}
+.x{
+  font-family: 'Gill Sans', 'Century Gothic', sans-serif;
+}
+@media screen and (min-width: $tablet){
+  #travisfriend{
+    margin: auto;
+    width: 94%;
+  }
+  #showm{
+    margin: auto;
+    margin-top: 25px;
+    width: 85%;
+  }
+  .imtx{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  }
+  .imgtxt{
+    width: 60%;
+  }
+  .txtimg{
+    margin-left: 5px;
+    width: 36%;
+  }
+.leftb{
+  border-left: 0;
+}
+#cmundivs{
+  display: flex;
+  flex-wrap: wrap;
+}
+.cmun{
+  padding-bottom: 50px;
+  width: 50%;
+}
+.COMMUNITY{
+  padding-top: 70px;
+}
+#lgrayx{
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+  background-size: cover;
+}
+#followu{
+  border-left: solid 2px $lgray;
+position: absolute;
+right: 30px;
+  width: 30%;
+  padding-top: 5px;
+}
+#suscribe{
+padding: 0;
+}
+.imputnews{
+  margin-left: 100px;
+  width: 50%;
+  padding-bottom: 40px;
+}
+}
+@media screen and (min-width: $desktop){
+#textetc{
+  width: 60%;
+}
+.cmun{
+  width: 25%;
+}
+#ic{
+  font-size: 0;
+}
+#headt{
+  position: relative;
+  background-size: cover;
+}
+#desktopbg{
+  display: flex;
+  position: absolute;
+  right: 30px;
+  font-size: 18px;
+  color: #d3d3d3;
+}
+.dkbg{
+  padding-left: 50px;
+  border-left: solid 2px $yellow;
+  padding-right: 50px;
+}
+}
